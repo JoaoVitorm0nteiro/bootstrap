@@ -13,10 +13,45 @@
     
     <div class="container">
         <div class="row mt-5">
-            <div class="col-sm-6 offset-6 card bg-light p-5">
+            <div class="col-sm-4 offset-sm-4 card bg-light p-5">
 
                 <form action="" method="post">
-                    
+
+                    <!--Checkbox em modo switch-->
+                    <div class="form-check form-switch mb-3">
+                        <input type="checkbox" class="form-check-input" role="switch" checked>
+                        <label for="" class="form-check-label">
+                            TESTE
+                        </label>
+                    </div>
+
+                    <div class="form-check form-switch mb-3">
+                        <input type="checkbox" class="form-check-input" role="switch" disabled>
+                        <label for="" class="form-check-label">
+                            TESTE
+                        </label>
+                    </div>
+
+                    <div>
+                        <select name="" id="" class="form-select form-select-sm" aria-label="Default select Example">
+                            <option value="" selected>Escolha uma cidade</option>
+                            <option value="1">CURTIBA - PR</option>
+                            <option value="2">JOINVILLE - SC</option>
+                            <option value="3">MARINGÁ - PR</option>
+                        </select>
+                        <div class="form-text">O campo acima não pode estar vazio.</div>
+
+                    </div>
+
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" checked>
+                        <label for="" class="form-check-label">Memorizar essa opção.</label>
+                    </div>
+
+                    <div class="mt-5">
+                        <input type="submit" class="btn btn-primary" value="Enviar">
+                    </div>
+
                 </form>
 
             </div>
