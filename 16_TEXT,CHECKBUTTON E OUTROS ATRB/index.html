@@ -13,19 +13,33 @@
 
     <div class="container">
         <div class="row mt-5">
-            <div class="col-sm-4 offset-4">
+            <!--BOX PRINCIPAL-->
+            <div class="col-sm-4 offset-4 card bg-light p-5">
                 <form action="" method="post">
 
-                    <div class="mb-3 text-center">
+                    <div class="mb-3">
                         <label for="" class="form-label">Usuario</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome de Usuario">
-                    </div>
-                    <div class="mb-3 text-center">
-                        <label for="" class="form-label">Senha</label>
-                        <input type="password" name="" id="" class="form-control" placeholder="Senha">
+                        <input type="text" class="form-control form-control-sm" id="exampleFormControlInput1"
+                            placeholder="Nome de Usuario">
                     </div>
 
-                    <div class="text-center mt-3">
+                    <div class="mb-3">
+                        <label for="" class="form-label">Senha</label>
+                        <input type="password" name="" id="" class="form-control form-control-sm" placeholder="Senha">
+                        <div class="form-text">A senha precisa ter entre 6 a 16 caracteres.</div>
+                        <!--pequena notinha de rodapé-->
+                    </div>
+
+
+                    <!--checkbox-->
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" checked>
+                        <label for="" class="form-check-label">Manter-se conectado.</label>
+
+                    </div>
+
+
+                    <div class="text-center mt-5">
                         <input type="submit" value="Enviar" class="btn btn-primary">
                     </div>
 
@@ -33,7 +47,6 @@
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
